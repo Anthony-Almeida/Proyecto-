@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="icon" href="imagenes/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Productos</title>
+</head>
+
+<body class="mi-body">
+    <!--navegacion-->
+    <nav class="navbar navbar-expand-lg fixed-top mi-nav">
+        <div class="container ">
+            <a class="navbar-brand me-auto" href="#"><img src="imagenes/logo.png" alt="logo" width="50px"
+                    height="auto"></a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title me-auto" id="offcanvasNavbarLabel"><img src="imagenes/logo.png"
+                            alt="logohome" width="60px" height="auto"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="prductos.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="producto.html">Wisky</a></li>
+                                <li><a class="dropdown-item" href="producto.html">Ron</a></li>
+                                <li><a class="dropdown-item" href="producto.html">Vinos</a></li>
+                                <li><a class="dropdown-item" href="producto.html">Aguardiente</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="contacto.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="login-button">Login</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="col-sm-6 pt-4 pb-5">
+        <h2 class="text-center"></h2>
+    </div>   
+    <div class="col-sm-6 pt-5 pb-5">
+        <h3 class="text-center">Nuestros Productos</h3>
+    </div> 
+    <!--Seccion Categorias-->
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto my-5">
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center fs-2 text-center">
+                <img src="imagenes/wiski.jpeg" class="mt-7" alt="wiski" width="180" height="160">
+                <div>
+                    <h3 class="fs-7 mt-4 px-4 pb-1">Whiskys</h3>
+                    <p class="px-4 fs-5">Contamos con una gran variedad en whisky......</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center fs-2 text-center">
+                <img src="imagenes/rones.jpg" class="mt-7" alt="rones" width="180" height="160">
+                <div>
+                    <h3 class="fs-7 mt-4 px-4 pb-1">Rones</h3>
+                    <p class="px-4 fs-5">Contamos con una gran variedad en Ron......</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center fs-2 text-center">
+                <img src="imagenes/Vinos.webp" class="mt-5" alt="Vinos" width="180" height="160">
+                <div>
+                    <h3 class="fs-7 mt-4 px-4 pb-1">Vinos</h3>
+                    <p class="px-4 fs-5">Contamos con una gran variedad en Vinos......</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center fs-2 text-center">
+                <img src="imagenes/Aguardiente-1.webp" class="mt-5 border-radius 16px" alt="Aguardiente" width="180" height="160">
+                <div>
+                    <h3 class="fs-7 mt-4 px-4 pb-1">Aguardiente</h3>
+                    <p class="px-4 fs-5">Contamos con una gran variedad en Aguardiente......</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center fs-2 text-center">
+                <img src="imagenes/pisco.jpg" class="mt-5" alt="Pisco" width="180" height="160">
+                <div>
+                    <h3 class="fs-7 mt-4 px-4 pb-1">Pisco</h3>
+                    <p class="px-4 fs-5">Contamos con una gran variedad en Pisco......</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center fs-2 text-center ">
+                <img src="imagenes/tequila.png" class="mt-5 border-radius 16px" alt="tequila" width="180" height="160">
+                <div>
+                    <h3 class="fs-7 mt-4 px-4 pb-1">Tequilas</h3>
+                    <p class="px-4 fs-5">Contamos con una gran variedad en Tequilas......</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center fs-2 text-center ">
+                <img src="imagenes/vodka.webp" class="mt-5" alt="vodka" width="180" height="160">
+                <div>
+                    <h3 class="fs-7 mt-4 px-4 pb-1">Vodka</h3>
+                    <p class="px-4 fs-5">Contamos con una gran variedad en Vodkas......</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex justify-content-center fs-2 text-center ">
+                <img src="imagenes/snacks.jpeg" class="mt-5" alt="snacks" width="180" height="160">
+                <div>
+                    <h3 class="fs-7 mt-4 px-4 pb-1">Snacks</h3>
+                    <p class="px-4 fs-5">Contamos con una gran variedad en Snacks......</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="col-lg-6 pt-4 pb-5">
+        <p class="text-center">Pregunte sobre nuestras promociones</p>
+    </div> 
+    <div class="container-fluid bg-light text-center p-3">
+        <p class="small">&copy; Todos los derechos reservados:: Licoreria La Cigarra :: Quito Ecuador</p>
+
+    </div>
+</body>
+
+</html>
